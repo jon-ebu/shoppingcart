@@ -1,0 +1,88 @@
+h1 { font-family: Arial, Helvetica, sans-serif; font-size: 32px; color: black; margin: 15px 0px 0px 0px; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+li, td { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+hr { color: #FF0000; width: 70%; text-align: center;}
+a { color: #000000; }
+
+/* Nav Menu */
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  border-style: solid;
+}
+
+ul.nav > li {
+  float: left;
+  font-size: 25px;
+}
+
+ul.nav > li#shoppingcart {
+  float: right;
+}
+
+ul.nav a,
+.dropbtn
+{
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+  /* Dropdown */
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    border-style: solid;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Button CSS */
+button, input[type=button] {
+background-color: white;
+border-style: solid;
+border-color: black;
+font-size: 14px;
+margin: 16px;
+padding: 8px 12px;
+outline-style: none;
+}
+
+button:hover, input[type=button]:hover {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  font-size: 14px;
+  }

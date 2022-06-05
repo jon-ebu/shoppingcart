@@ -1,2 +1,2 @@
-# shoppingcart
-CISW31 Shopping Cart Project
+# ShoppingCart
+CISW31 Final Project - A Shopping Cart
